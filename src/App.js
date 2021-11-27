@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "./components/Header";
+import Home from "./components/Home";
 
 //styles
 import { GlobalStyle } from "./GlobalStyle";
@@ -6,7 +8,8 @@ import { GlobalStyle } from "./GlobalStyle";
 const App = () => {
   return (
     <div className="App">
-      Hello World!
+      <Header />
+      <Home />
       <GlobalStyle />
     </div>
   );
